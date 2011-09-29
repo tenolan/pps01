@@ -2,14 +2,14 @@
 # that require network functionality will fail.
 127.0.0.1		localhost.localdomain localhost
 ::1		localhost6.localdomain6 localhost6
-10.0.2.1      	PPs01.n4.local
-10.0.2.20	AMQs01.n4.local
-10.0.2.30	NAGIOSs01.n4.local
-10.0.2.101      s01.n4.local
-10.0.2.102      s02.n4.local
-10.0.2.103      s03.n4.local
-10.0.2.104      s04.n4.local
-10.0.2.105      s05.n4.local
-10.0.2.106      s06.n4.local
-10.0.2.107      s07.n4.local
-10.0.2.108      s08.n4.local
+10.0.2.1      	PPs01.n4.local pps01
+10.0.2.20	AMQs01.n4.local amqs01
+10.0.2.30	NAGIOSs01.n4.local nagioss01
+10.0.2.101      s01.n4.local s01
+10.0.2.102      s02.n4.local s02
+10.0.2.103      s03.n4.local s03
+10.0.2.104      s04.n4.local s04
+10.0.2.105      s05.n4.local s05
+10.0.2.106      s06.n4.local s06
+10.0.2.107      s07.n4.local s07
+10.0.2.108      s08.n4.local s07
