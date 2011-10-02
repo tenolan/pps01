@@ -13,5 +13,13 @@ class reqfiles {
                 source => "puppet://$puppetserver/modules/reqfiles/etc/sudoers",
         }
 
+	 file { "/etc/yum.repos.d/local.repo":
+                owner => "root",
+                group => "root",
+                mode => 0440,
+                source => "puppet://$puppetserver/modules/reqfiles/etc/yum.repos.d/local.repo",
+        }
+
+
 }
 
