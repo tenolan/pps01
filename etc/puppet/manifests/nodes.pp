@@ -6,7 +6,9 @@ node "s01.n4.local" {
 node "s03.n4.local" {
         include reqfiles
         include activemq
+	include nagios::target
         }
 node "s04.n4.local" {
-        include nagios::monitor
+        include nagios
+	include nagios::target
         }
