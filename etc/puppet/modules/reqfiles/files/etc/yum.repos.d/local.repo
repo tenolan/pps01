@@ -1,0 +1,5 @@
+[localrepo]
+name=N4 Local Repo
+baseurl=http://pps01.n4.local/centos/5/os/x86_64/
+enabled=1
+gpgcheck=0
