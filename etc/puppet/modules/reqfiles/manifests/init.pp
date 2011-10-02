@@ -3,7 +3,7 @@ class reqfiles {
 	 file { "/etc/puppet/puppet.conf":
                 owner => "root",
                 group => "root",
-                mode => 0440,
+                mode => 0644,
                 source => "puppet://$puppetserver/modules/reqfiles/etc/puppet/puppet.conf",
         }
 
