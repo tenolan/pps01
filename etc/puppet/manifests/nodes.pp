@@ -7,3 +7,6 @@ node "s03.n4.local" {
         include reqfiles
         include activemq
         }
+node "s04.n4.local" {
+        include nagios::monitor
+        }
